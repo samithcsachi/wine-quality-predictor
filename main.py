@@ -3,6 +3,7 @@ from wine_quality_predictor.pipeline.stage_01_data_ingestion import DataIngestio
 from wine_quality_predictor.pipeline.stage_02_data_validation import DataValidationTrainingPipeline
 from wine_quality_predictor.pipeline.stage_03_data_transformation import DataTransformationTrainingPipeline
 from wine_quality_predictor.pipeline.stage_04_model_trainer import ModelTrainerTrainingPipeline
+from wine_quality_predictor.pipeline.stage_05_model_evaluation import ModelEvaluationTrainingPipeline
 
 
 
@@ -52,6 +53,18 @@ try:
     logger.info(f"\n\n{'*'*20} {STAGE_NAME} {'*'*20}\n")
     model_trainer = ModelTrainerTrainingPipeline()
     model_trainer.main()
+    logger.info(f"\n\n{'*'*20} {STAGE_NAME} completed {'*'*20}\n")
+except Exception as e:
+    logger.exception(e)
+    raise e
+
+
+STAGE_NAME = "Model Evaluation Stage"
+
+try:
+    logger.info(f"\n\n{'*'*20} {STAGE_NAME} {'*'*20}\n")
+    model_evaluation = ModelEvaluationTrainingPipeline()
+    model_evaluation.main()
     logger.info(f"\n\n{'*'*20} {STAGE_NAME} completed {'*'*20}\n")
 except Exception as e:
     logger.exception(e)
