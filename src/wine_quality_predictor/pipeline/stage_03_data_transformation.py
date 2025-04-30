@@ -1,6 +1,7 @@
 from wine_quality_predictor.config.configuration import ConfigurationManager
 from wine_quality_predictor.components.data_transformation import DataTransformation
 from wine_quality_predictor import logger
+from pathlib import Path
 
 
 STAGE_NAME = "Data Transformation Stage"

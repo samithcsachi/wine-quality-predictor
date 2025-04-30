@@ -32,12 +32,15 @@ class DataTransformation:
             maximum = df[feature].max()
             df[feature] = (df[feature] - minimum) / (maximum - minimum)
 
-        # Log transform a skewed feature
-        df['free sulfur dioxide'] = np.log1p(df['free sulfur dioxide'])
+        # ===== Data Cleaning =====
+
+        for col, value in df.items():
+            if col != 'type':
+                df[col] = df[col].fillna(df[col].mean())
 
        
         # Split the data into training and test sets. (0.75, 0.25) split.
-        train, test = train_test_split(df)
+        train, test = train_test_split(df,test_size = 0.25, random_state = 42)
 
 
 
