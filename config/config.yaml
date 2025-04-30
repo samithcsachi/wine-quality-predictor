@@ -1,0 +1,7 @@
+artifacts_root: artifacts
+
+data_ingestion:
+  root_dir: artifacts/data_ingestion
+  source_URL: https://raw.githubusercontent.com/samithcsachi/Machine_Learning_Projects/main/Wine%20Quality%20Prediction%20Analysis%20(Classification)/winequalityN.csv
+  local_data_file: artifacts/data_ingestion/data.zip
+  local_data_file: artifacts/data_ingestion/data/winequalityN.csv
