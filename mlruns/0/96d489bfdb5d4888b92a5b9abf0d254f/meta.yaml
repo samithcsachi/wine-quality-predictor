@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/SAMITH/Github/wine-quality-predictor/mlruns/0/96d489bfdb5d4888b92a5b9abf0d254f/artifacts
+end_time: 1746088507248
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 96d489bfdb5d4888b92a5b9abf0d254f
+run_name: peaceful-dog-519
+run_uuid: 96d489bfdb5d4888b92a5b9abf0d254f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1746088500973
+status: 3
+tags: []
+user_id: samit
