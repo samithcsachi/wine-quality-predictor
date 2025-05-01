@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/SAMITH/Github/wine-quality-predictor/mlruns/0/40f0968e1d354fbaad2cb23468e9ec72/artifacts
+end_time: 1746086244419
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 40f0968e1d354fbaad2cb23468e9ec72
+run_name: rebellious-gnu-909
+run_uuid: 40f0968e1d354fbaad2cb23468e9ec72
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1746086233122
+status: 3
+tags: []
+user_id: samit
