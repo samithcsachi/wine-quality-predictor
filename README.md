@@ -19,6 +19,9 @@ Badge [source](https://shields.io/)
 
 In this project we are developing Streamlit Application which can predict the quality of the wine. This is an end to end Machine learning portfolio project which involves the Model Development and Model training. Machine Learning Project is implemented with MLOps and CI/CD pipelines. MLOps consists of Data Ingestion, Data Transformation, Model Trainer, Model Evaluation and Model Deployment. Streamlit app is deployed in the streamlit website. 
 
+Streamlit App link : [https://wine-quality-predictor-app.streamlit.app/](https://wine-quality-predictor-app.streamlit.app/)
+
+
 ## Authors
 
 - [Samith Chimminiyan](https://www.github.com/samithcsachi)
