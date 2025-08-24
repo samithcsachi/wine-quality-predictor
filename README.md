@@ -17,7 +17,7 @@ Badge [source](https://shields.io/)
 
 # Wine Quality Predictor App
 
-In this project we are developing Streamlit Application which can predict the quality of the wine. This is an end to end Machine learning portfolio project which involves the Model Development and Model training. Machine Learning Project is implemented with MLOps and CI/CD pipelines. MLOps consists of Data Ingestion, Data Transformation, Model Trainer, Model Evaluation and Model Deployment. Streamlit app is deployed in the streamlit website. 
+In this project, we are developing a Streamlit Application that can predict the quality of the wine. This is an end-to-end Machine learning portfolio project that involves Model Development and Model training. The Machine Learning Project is implemented with MLOps and CI/CD pipelines.
 
 Streamlit App link : [https://wine-quality-predictor-app.streamlit.app/](https://wine-quality-predictor-app.streamlit.app/)
 
@@ -34,8 +34,8 @@ Streamlit App link : [https://wine-quality-predictor-app.streamlit.app/](https:/
 - [Tech Stack](#tech-stack)
 - [Data source](#data-source)
 - [Quick glance at the results](#Quick-glance-at-the-results)
-- [Lessons learned and recommendation](#lessons-learned-and-recommendation)
-- [Limitation and what can be improved](#limitation-and-what-can-be-improved)
+- [Lessons learned and recommendation](#lessons-learned-and-recommendations)
+- [Limitation and what can be improved](#limitations-and-what-can-be-improved)
 - [Work Flows](#workflows)
 - [Run Locally](#run-locally)
 - [Explore the notebook](#explore-the-notebook)
@@ -44,7 +44,7 @@ Streamlit App link : [https://wine-quality-predictor-app.streamlit.app/](https:/
 
 ## Problem Statement 
 
-This app can can predict the quality of the wine with few features like Fixed Acidity, Volatile Acidity, Citric Acid, Residual Sugar, Chlorides, Total Sulfur Dioxide, pH, Sulphates and Alcohol. 
+This app can predict the quality of the wine with a few features like Fixed Acidity, Volatile Acidity, Citric Acid, Residual Sugar, Chlorides, Total Sulfur Dioxide, pH, Sulphates, and Alcohol. 
 
 ## Tech Stack
 
@@ -69,7 +69,7 @@ Data Source Link : - [https://www.kaggle.com/datasets/rajyellow46/wine-quality](
 
 The dataset was downloaded from the UCI Machine Learning Repository.
 
-The two datasets are related to red and white variants of the Portuguese "Vinho Verde" wine. The reference [Cortez et al., 2009]. Due to privacy and logistic issues, only physicochemical (inputs) and sensory (the output) variables are available (e.g. there is no data about grape types, wine brand, wine selling price, etc.).
+The two datasets are related to red and white variants of the Portuguese "Vinho Verde" wine. The reference [Cortez et al., 2009]. Due to privacy and logistical issues, only physicochemical (inputs) and sensory (the output) variables are available (e.g., there is no data about grape types, wine brand, wine selling price, etc.).
 
 Attribute Information:
 
@@ -113,7 +113,7 @@ Images from EDA
 
 
 
-## Lessons learned and recommendation
+## Lessons learned and recommendations
 
 
 ***Have used ElasticNet for the prediction.***
@@ -127,13 +127,13 @@ to get the below results.
     - r2: 0.07460097151842737
 
 
-With this project have learned how can we used MLflow to identify the best parameters for the model. Also learned to deploy the app in streamlit. 
+With this project have learned how we use MLflow to identify the best parameters for the model. Also learned to deploy the app in Streamlit. 
 
 
 
-## Limitation and what can be improved
+## Limitations and what can be improved
 
-We can also use the traditional method of trying different algorithms to identify the best model with Hyper tunning parameters to get a more accurate model but that might be very time consuming process. 
+We can also use the traditional method of trying different algorithms to identify the best model with hyper-tuning parameters to get a more accurate model, but that might be a  very time-consuming process. 
 
 
 ## Workflows
@@ -142,9 +142,9 @@ We can also use the traditional method of trying different algorithms to identif
 2. Update schema.yaml
 3. Update params.yaml
 4. Update entity
-5. Update the configuration manager in src config
+5. Update the configuration manager in the src config
 6. Update the components 
-7. Update teh pipeline
+7. Update the pipeline
 8. Update the main.py
 9. Update the app.py
 
@@ -164,7 +164,7 @@ Clone the project
 git clone https://github.com/samithcsachi/wine-quality-predictor.git
 ```
 
-Open Anaconda Prompt and Change the Directory and Open VSCODE by typing code .
+Open Anaconda Prompt, change the Directory, and Open VSCODE by typing code.
 
 ```bash
 cd E:/wine-quality-predictor
@@ -182,7 +182,7 @@ conda activate wine
 ```
 
 
-install the requirements
+Install the requirements
 
 ```bash
 pip install -r requirements.txt
@@ -190,7 +190,7 @@ pip install -r requirements.txt
 
 
 ```bash
-# Finally run the following command
+# Finally, run the following command: 
 python main.py
 ```
 
@@ -209,7 +209,7 @@ MLFLOW_TRACKING_USERNAME=your_username from dagshub \
 MLFLOW_TRACKING_PASSWORD=your_token from dagshub \
 
 
-Run this to export as env variables in cmd:
+Run this to export as env variables in CMD:
 
 ```bash
 
