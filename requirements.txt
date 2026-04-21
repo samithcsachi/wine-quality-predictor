@@ -11,4 +11,5 @@ ensure
 joblib
 types-pyYAML
 streamlit
+mlflow ~> 2.22.4
 -e .
